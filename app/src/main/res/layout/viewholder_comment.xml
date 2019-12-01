@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_marginBottom="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivCurrentUser"
+            android:layout_gravity="start"
+            tools:src="@drawable/ic_account_circle_black_24dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <org.mmtextview.components.MMTextView
+            android:textSize="12sp"
+        android:id="@+id/tvUserName"
+        tools:text="Aker "
+        android:padding="4dp"
+        android:layout_toRightOf="@id/ivCurrentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvAgo"
+            tools:text="4 seconds ago "
+            android:paddingStart="4dp"
+            android:textSize="10sp"
+            android:layout_toRightOf="@id/ivCurrentUser"
+            android:layout_below="@id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvComment"
+        tools:text="dsafdfasfdsfdsfsdf "
+        android:padding="8dp"
+        android:layout_toRightOf="@id/ivCurrentUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ivComment"
+        android:visibility="gone"
+        android:adjustViewBounds="true"
+        tools:src="@drawable/extinction"
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"/>
+
+</LinearLayout>

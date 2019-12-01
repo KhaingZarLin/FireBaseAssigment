@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wajahatkarim3.clapfab:clapfab:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4948eb4809cd7884397ab4b5364dd6c/jetified-clapfab-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4948eb4809cd7884397ab4b5364dd6c/jetified-clapfab-1.0.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wajahatkarim3.clapfab/clapfab/1.0.4/4bec8211d86b36bfc8a42a78494bc39ea673f2ce/clapfab-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wajahatkarim3.clapfab/clapfab/1.0.4/590ecd1724077bfbd16ba56a3b360f93a7b5431c/clapfab-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "163448742645",
+    "firebase_url": "https://padc-firebase-b59fd.firebaseio.com",
+    "project_id": "padc-firebase-b59fd",
+    "storage_bucket": "padc-firebase-b59fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163448742645:android:232b20cacc9324c8f41bbc",
+        "android_client_info": {
+          "package_name": "com.padc.padcfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163448742645-e1fe80uosqi32cjk7u3fjhtf8s40qi8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.padc.padcfirebase",
+            "certificate_hash": "71c317bf44738da1b903baac103c8f7c3c0b13f0"
+          }
+        },
+        {
+          "client_id": "163448742645-06htnupd8imbf8rs3vu8pkui46ma0p9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE2Uct72B7dtpXO90gFMAWJaHw3HfzEXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163448742645-06htnupd8imbf8rs3vu8pkui46ma0p9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
